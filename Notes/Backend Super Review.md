@@ -179,4 +179,4 @@ fetch("https://dog.ceo/api/breeds/image/random")
 
 > `res` is a Response object - containing info about the response from status code, headers, and what we want, the unprocessed body of the request. Then we call and return res.json(), which both reads/consumes the body of the request and parses it as JSON, returning whatever was JSON-ified - which is usually an object
 
-> So there's a link button with a click event listener, so when you click a fetch() is made to tell the backend server to mark the post as liked. Then, we get the response, return the json of the resonse, and then if the liking was successful, update the number of likes in the DOM
+> So there's a link button with a click event listener, so when you click a fetch() is made to tell the backend server to mark the post as liked. Then, we get the response, return the json of the resonse, and then if the liking was successful, update the number of likes in the DOM 
